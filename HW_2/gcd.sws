@@ -1,4 +1,4 @@
-# simple greatest common denominator calculator
+# simple greatest common divisor calculator
 
 def gcd(n, m):
     if n == m == 0:
