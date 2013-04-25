@@ -24,19 +24,13 @@
 
 3) 
    **Python:**  
-   %timeit 
-
-   %timeit 
-
-   %timeit 
+   %timeit primes_to_10k()  
+   
         
         
    **Cython:**
-   %timeit 
-        
-   %timeit 
-        
-   %timeit 
+   %timeit cprimes_to_10k()  
+   
   
   
 4) 
