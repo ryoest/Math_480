@@ -1,0 +1,8 @@
+#calculate the sum of the squares of the positive integers up to n (up to at most 10000)
+def sum_sqr(n):
+    sum = 0
+    count = 1
+    for i in range(0,n):
+        sum += count**2
+        count += 1
+    return sum
