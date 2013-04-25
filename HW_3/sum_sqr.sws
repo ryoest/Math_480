@@ -6,3 +6,13 @@ def sum_sqr(n):
         sum += count**2
         count += 1
     return sum
+
+
+%cython
+cdef long csum_sqr(long n):
+    sum = 0
+    count = 1
+    for i in range(0, n):
+        sum += count**2
+        count += 1
+    return sum
