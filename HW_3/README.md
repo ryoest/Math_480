@@ -25,7 +25,7 @@
 3) 
    **Python:**  
    %timeit primes_to_10k()  
-   
+   5 loops, best of 3: 1.31 s per loop
         
         
    **Cython:**
