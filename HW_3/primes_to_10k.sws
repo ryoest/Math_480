@@ -5,6 +5,19 @@ def primes_to_10k():
         j = 2
         while j * i <= p[-1]:
             if i * j in p:
-          p.remove(i*j)
-            j += 1
+                p.remove(i*j)
+                j += 1
+    return p
+
+
+%cython
+cpdef cprimes_to_10k():
+    p = range(2, 10001)
+
+    for i in p:
+        j = 2
+        while j * i <= p[-1]:
+            if i * j in p:
+                p.remove(i*j)
+                j += 1
     return p
