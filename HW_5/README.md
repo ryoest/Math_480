@@ -1,3 +1,10 @@
+**1)**
+
+a) -20/13  
+b) 17  
+c) 81/19  
+d) 1234/4567
+
 **2a)**  By Fermat's Little Theorem, if a number n is prime and a is coprime to n then a^(n-1) ≅ 1 mod(n)
 
 In Sage, we can simply check whether Mod(2,n)^(n-1) == 1. 
